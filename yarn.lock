@@ -304,7 +304,7 @@
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.2.21.tgz#9f35a5643129df132cf3b5c1ec64046ea1af0650"
   integrity sha512-yd+9qKmJxm496BOV9CMNaey8TWsikaZOwMRwPHQIjcOJM9oV+fi9ZMNw3JsVnbEEbo2gRTDnGEBv8pjyn67hNg==
 
-"@types/debug@^4.1.5", "@types/debug@^4.1.6":
+"@types/debug@^4.1.5":
   version "4.1.6"
   resolved "https://registry.yarnpkg.com/@types/debug/-/debug-4.1.6.tgz#0b7018723084918a865eff99249c490505df2163"
   integrity sha512-7fDOJFA/x8B+sO1901BmHlf5dE1cxBU8mRXj8QOEDnn16hhGJv/IHxJtZhvsabZsIMn0eLIyeOKAeqSNJJYTpA==
@@ -2528,10 +2528,10 @@ pathval@^1.1.1:
   resolved "https://registry.yarnpkg.com/pathval/-/pathval-1.1.1.tgz#8534e77a77ce7ac5a2512ea21e0fdb8fcf6c3d8d"
   integrity sha512-Dp6zGqpTdETdR63lehJYPeIOqpiNBNtc7BpWSLrOje7UaIsE5aY92r/AunQA7rsXvet3lrJ3JnZX29UPTKXyKQ==
 
-peek-readable@^3.1.3:
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/peek-readable/-/peek-readable-3.1.3.tgz#932480d46cf6aa553c46c68566c4fb69a82cd2b1"
-  integrity sha512-mpAcysyRJxmICBcBa5IXH7SZPvWkcghm6Fk8RekoS3v+BpbSzlZzuWbMx+GXrlUwESi9qHar4nVEZNMKylIHvg==
+peek-readable@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/peek-readable/-/peek-readable-4.0.0.tgz#b024ef391c86136eba0ae9df3ff4f966a09e9a7e"
+  integrity sha512-kLbU4cz6h86poGVBKgAVMpFmD47nX04fPPQNKnv9fuj+IJZYkEBjsYAVu5nDbZWx0ZsWwWlMzeG90zQa5KLBaA==
 
 performance-now@^2.1.0:
   version "2.1.0"
@@ -3249,14 +3249,12 @@ strip-json-comments@3.1.1, strip-json-comments@^3.1.0, strip-json-comments@^3.1.
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-3.1.1.tgz#31f1281b3832630434831c310c01cccda8cbe006"
   integrity sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
 
-strtok3@^6.0.3, strtok3@^6.1.1:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/strtok3/-/strtok3-6.1.1.tgz#4e948b5bffeee4c66504c73625a28b170d45ae45"
-  integrity sha512-Q2YbTf17/GPyhWnYGPcxZdPuXvVvstHEKdgxgdaj+SI2c5//KezIgAQJAT2/RYI0H+CQt2fDVvPiLBdl82i0yA==
+strtok3@^6.0.3, strtok3@^6.2.1:
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/strtok3/-/strtok3-6.2.1.tgz#13544a93d1620eb7c0ca700eea85b565e252400f"
+  integrity sha512-KVEUjM/+GSNxSS1xRlxCkBOTljK9IIwjLOmIjgBsTYFW5xt3QHxVYLsqFXqvwH1iXROcnDuv+Z1JH/Sm60HTVg==
   dependencies:
-    "@tokenizer/token" "^0.1.1"
-    "@types/debug" "^4.1.6"
-    peek-readable "^3.1.3"
+    peek-readable "^4.0.0"
 
 supports-color@8.1.1:
   version "8.1.1"
