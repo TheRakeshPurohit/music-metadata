@@ -304,7 +304,7 @@
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.2.21.tgz#9f35a5643129df132cf3b5c1ec64046ea1af0650"
   integrity sha512-yd+9qKmJxm496BOV9CMNaey8TWsikaZOwMRwPHQIjcOJM9oV+fi9ZMNw3JsVnbEEbo2gRTDnGEBv8pjyn67hNg==
 
-"@types/debug@^4.1.5", "@types/debug@^4.1.6":
+"@types/debug@^4.1.5":
   version "4.1.6"
   resolved "https://registry.yarnpkg.com/@types/debug/-/debug-4.1.6.tgz#0b7018723084918a865eff99249c490505df2163"
   integrity sha512-7fDOJFA/x8B+sO1901BmHlf5dE1cxBU8mRXj8QOEDnn16hhGJv/IHxJtZhvsabZsIMn0eLIyeOKAeqSNJJYTpA==
@@ -1238,14 +1238,14 @@ file-entry-cache@^6.0.1:
   dependencies:
     flat-cache "^3.0.4"
 
-file-type@*, file-type@^16.5.0:
-  version "16.5.1"
-  resolved "https://registry.yarnpkg.com/file-type/-/file-type-16.5.1.tgz#dd697dc5c3a2f4db63af746f38a6322e5e7bc6a5"
-  integrity sha512-Pi1G43smrCy82Q3be3sfKaeS5uHdfj905dP88YqhroG6TYbVY2ljTdDXeXqa6Cn5nOk6znOjWM2uZptA8vH/qQ==
+file-type@*, file-type@^16.5.2:
+  version "16.5.2"
+  resolved "https://registry.yarnpkg.com/file-type/-/file-type-16.5.2.tgz#e6626f7a253af2ecf499f31995f0e849226825a8"
+  integrity sha512-lnHRZj2USLF3v4C5ZY7/vQQeoTVA1YV9TtD6UUCr9z5Cd0uyutqxPBJxkXzM6lufPNuSfefq/yFmnSPz0C3wNw==
   dependencies:
     readable-web-to-node-stream "^3.0.0"
-    strtok3 "^6.0.3"
-    token-types "^2.0.0"
+    strtok3 "6.1.3"
+    token-types "^3.0.0"
 
 fill-range@^7.0.1:
   version "7.0.1"
@@ -2528,10 +2528,10 @@ pathval@^1.1.1:
   resolved "https://registry.yarnpkg.com/pathval/-/pathval-1.1.1.tgz#8534e77a77ce7ac5a2512ea21e0fdb8fcf6c3d8d"
   integrity sha512-Dp6zGqpTdETdR63lehJYPeIOqpiNBNtc7BpWSLrOje7UaIsE5aY92r/AunQA7rsXvet3lrJ3JnZX29UPTKXyKQ==
 
-peek-readable@^3.1.3:
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/peek-readable/-/peek-readable-3.1.3.tgz#932480d46cf6aa553c46c68566c4fb69a82cd2b1"
-  integrity sha512-mpAcysyRJxmICBcBa5IXH7SZPvWkcghm6Fk8RekoS3v+BpbSzlZzuWbMx+GXrlUwESi9qHar4nVEZNMKylIHvg==
+peek-readable@^3.1.4:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/peek-readable/-/peek-readable-3.1.4.tgz#f5c3b41a4eeb63a1322c4131f0b5bac7105b892e"
+  integrity sha512-DX7ec7frSMtCWw+zMd27f66hcxIz/w9LQTY2RflB4WNHCVPAye1pJiP2t3gvaaOhu7IOhtPbHw8MemMj+F5lrg==
 
 performance-now@^2.1.0:
   version "2.1.0"
@@ -3249,14 +3249,13 @@ strip-json-comments@3.1.1, strip-json-comments@^3.1.0, strip-json-comments@^3.1.
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-3.1.1.tgz#31f1281b3832630434831c310c01cccda8cbe006"
   integrity sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
 
-strtok3@^6.0.3, strtok3@^6.1.1:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/strtok3/-/strtok3-6.1.1.tgz#4e948b5bffeee4c66504c73625a28b170d45ae45"
-  integrity sha512-Q2YbTf17/GPyhWnYGPcxZdPuXvVvstHEKdgxgdaj+SI2c5//KezIgAQJAT2/RYI0H+CQt2fDVvPiLBdl82i0yA==
+strtok3@6.1.3, strtok3@^6.1.1:
+  version "6.1.3"
+  resolved "https://registry.yarnpkg.com/strtok3/-/strtok3-6.1.3.tgz#488fe8ca91664cf93432c94752ba9e5c785bd9dd"
+  integrity sha512-ssWSKFOeUTurMSucgyUf+a6Z9mVTYrsYiyEK5RLnh8BM6sFrKSljVlnjZXIDxMguYfdQI+mUPFHo88FYTxq1XA==
   dependencies:
     "@tokenizer/token" "^0.1.1"
-    "@types/debug" "^4.1.6"
-    peek-readable "^3.1.3"
+    peek-readable "^3.1.4"
 
 supports-color@8.1.1:
   version "8.1.1"
@@ -3331,14 +3330,6 @@ to-vfile@^6.0.0:
   dependencies:
     is-buffer "^2.0.0"
     vfile "^4.0.0"
-
-token-types@^2.0.0:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/token-types/-/token-types-2.1.1.tgz#bd585d64902aaf720b8979d257b4b850b4d45c45"
-  integrity sha512-wnQcqlreS6VjthyHO3Y/kpK/emflxDBNhlNUPfh7wE39KnuDdOituXomIbyI79vBtF0Ninpkh72mcuRHo+RG3Q==
-  dependencies:
-    "@tokenizer/token" "^0.1.1"
-    ieee754 "^1.2.1"
 
 token-types@^3.0.0:
   version "3.0.0"
